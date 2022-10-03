@@ -1,1 +1,1 @@
-https://fullstack-decal-fa22.github.io/project1-ZaynaLateef/ 
+https://fullstack-decal-fa22.github.io/project1-ZaynaLateef/
