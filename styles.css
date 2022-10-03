@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box ;
+    font-family: 'sans-serif';
+    color: white;
+}
+html{
+    background-color:rgb(190, 174, 190);
+    scrollbar-color: white;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 45px;
+    right: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+  }
+  
+  .navbar * {
+    display: inline;
+  }
+  
+  .navbar li {
+    margin: 20px;
+  }
+  
+  .navbar a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: rgb(145, 119, 145);
+  }
+
+  #me {
+    text-align: center;
+    margin-bottom: 15%;
+    margin-top: 20%;
+  }
+  #me h1{
+    font-size: 98px;
+  }
+  #me h2{
+    font-size: 50px;
+  }
+  #about{
+    margin: 0 450px;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  #projects{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    grid-gap: 5px;
+  }
+  .grid-item {
+    font-size: 20 px;
+    padding: 20px;
+  }
+  #contact{
+    text-align: center;
+ 
+  }
+  h2{
+    font-size: 50px;
+  }
+  h5{
+    font-size: 30px;
+  }
+  input[type=text], textarea {
+    width: 25%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 10px; 
+    color: black;
+  }
+  .media{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    column-gap: 5%;
+    margin-bottom: 8%;
+  }
